@@ -1,0 +1,127 @@
+footer
+{
+	position: absolute;
+	width: 100%;
+	background: radial-gradient(101.75% 101.75% at 50% 50%, rgba(62, 80, 60, 0) 0%, #3E503C 100%), linear-gradient(0deg, rgba(62, 80, 60, 0.45), rgba(62, 80, 60, 0.45)), url("../../images/contacts-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 70px 150px 0 150px;
+	h3
+	{
+		margin: auto;
+		font-family: Politica;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 42px;
+		letter-spacing: -0.01em;
+		color: #F3ECDB;
+	}
+}
+
+.footer__content
+{
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	height: 438px;
+	margin-bottom: 60px;
+}
+
+.content__text
+{
+
+	h4
+	{
+		margin: auto;
+		margin-bottom: 10px;
+		font-family: Politica;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 28px;
+		color: #F3ECDB;
+	}
+		
+	p
+	{
+		margin: auto;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		color: #F3ECDB;
+	}	
+
+	.text__info
+	{
+		padding: 40px 0 0 0;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		border-bottom: 1px solid rgba(243, 236, 219, 0.3);
+		ul
+		{
+			max-height: 76px;
+			margin-bottom: 50px;
+		}
+		li
+		{
+			padding-left: 20px;
+			p
+			{
+				width: 199px;
+			}
+		}
+		ul:nth-child(1)
+		{
+			list-style-image: url("../../images/footer__adress.svg");
+		}
+
+		ul:nth-child(2)
+		{
+			list-style-image: url("../../images/footer__schedule.svg");
+		}
+
+		ul:nth-child(3)
+		{
+			list-style-image: url("../../images/footer__number.svg");
+		}
+
+		ul:nth-child(4)
+		{
+			list-style-image: url("../../images/footer__mail.svg");
+		}
+	}
+
+	.text__output
+	{
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-around;
+		h4
+		{
+			margin-bottom: 20px;
+		}
+
+		.output__socialSites,
+		.output__writeUs
+		{
+			width: 160px;
+			div
+			{
+				display: flex;
+				justify-content: space-between;
+			}
+		}
+
+
+	}
+}
+
+.content__map
+{
+	background: linear-gradient(0deg, rgba(127, 136, 106, 0.2), rgba(127, 136, 106, 0.2)), url(.png);
+	border-radius: 5px;
+}

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Economica&family=Open+Sans&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+}
+
+header {
+  min-height: 800px;
+  background: radial-gradient(101.75% 101.75% at 50% 50%, rgba(62, 80, 60, 0) 0%, #3E503C 100%), linear-gradient(0deg, rgba(62, 80, 60, 0.4), rgba(62, 80, 60, 0.4)), url(../../images/main-bg.png);
+  background-size: cover;
+  position: relative;
+}
+
+.heading {
+  height: 80px;
+  z-index: 100;
+}
+.heading .row {
+  margin: 0;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.headin__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading__logo:nth-child(1) {
+  width: 30px;
+  height: 29, 94px;
+  color: #f3ecdb;
+}
+
+.heading__logo:nth-child(2) {
+  width: 129px;
+  height: 38px;
+  color: #f3ecdb;
+}
+
+.heading__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading__links a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #f3ecdb;
+}
+
+.heading__connect h4 {
+  font-family: Politica, sans-serif;
+  font-size: 27px;
+  line-height: 38px;
+  margin: 12px auto auto auto;
+  color: #dfa715;
+  text-align: right;
+}
+.heading__connect h5 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  margin: auto;
+  color: #f3ecdb;
+  text-align: right;
+}
+
+h1 {
+  margin: 170px auto auto auto;
+  font-family: Politica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 67px;
+  text-align: center;
+  color: #f3ecdb;
+  width: 619px;
+  height: 134px;
+}
+
+h2 {
+  width: 326px;
+  height: 63px;
+  margin: 30px auto auto auto;
+  margin-bottom: 60px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 133%;
+  text-align: center;
+  color: #f3ecdb;
+}
+
+.preview__buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  height: 60px;
+  margin: 60px auto auto auto;
+}
+.preview__buttons button {
+  border-radius: 5px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.preview__buttons__catalog {
+  background-color: #dfa715;
+  border: #dfa715;
+  box-shadow: 3px 3px #9d7715;
+  color: #F3ECDB;
+}
+
+.preview__buttons__contact {
+  background-color: #f3ecdb;
+  border: #f3ecdb;
+  box-shadow: 3px 3px #ADAAA4;
+  color: #3e503c;
+}

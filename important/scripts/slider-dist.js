@@ -1,0 +1,1 @@
+$(document).ready((function(){$(".catalog__content").slick({dots:!0})}));
